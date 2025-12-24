@@ -1,10 +1,11 @@
 import { StylesProvider } from "@material-ui/core/styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import React from "react";
+import MarketingApp from "./components/MarketingApp";
 const App = () => {
   return (
     <div>
-      <h1>This is Container</h1>
+      <MarketingApp />
     </div>
   );
 };
